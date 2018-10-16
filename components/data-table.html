@@ -1,0 +1,44 @@
+<table>
+    <thead></thead>
+    <tbody></tbody>
+</table>
+
+<style>
+    :host {
+        border: 1px var(--border-color, black) solid;
+        border-radius: var(--border-radius, 0);
+        background-color: var(--background-color, #eee);
+        overflow: auto;
+        display: block;
+    }
+
+    :host([hidden]) {
+        display: none;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th {
+        position: sticky;
+        top: 0px;
+        width: 300px;
+        min-width: 100px;
+        background-color: var(--primary-color, cornflowerblue);
+        color: white;
+    }
+
+    th:last-child {
+        width: auto;
+    }
+
+    th,
+    td {
+        border: 1px var(--border-color, black) solid;
+        padding: .5rem;
+        box-sizing: border-box;
+        text-align: center;
+    }
+</style>

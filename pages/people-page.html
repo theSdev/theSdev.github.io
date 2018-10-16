@@ -1,0 +1,23 @@
+<h2>افراد</h2>
+<data-table items="people"></data-table>
+
+<style>
+    :host {
+        display: flex;
+        flex-direction: column;
+    }
+
+    :host>* {
+        margin: .5rem 0;
+    }
+
+    :host([hidden]) {
+        display: none;
+    }
+
+    data-table {
+        box-sizing: border-box;
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+</style>

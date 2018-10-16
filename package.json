@@ -1,0 +1,16 @@
+{
+  "name": "web-components-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "data-table.js",
+  "scripts": {
+    "sync": "browser-sync start --server --files \"**/*.*\" --single --no-notify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^3.1.3",
+    "typescript-lit-html-plugin": "^0.6.0"
+  }
+}
